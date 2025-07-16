@@ -105,10 +105,10 @@ st.markdown("""
 
     /* Main padding to prevent overlap */
     .main > div {
-        padding-top: 205px !important;
+        padding-top: 135px !important;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 788px) {
         .sticky-header-content h2 {
             font-size: 1.3rem;
         }
@@ -118,7 +118,7 @@ st.markdown("""
         }
 
         .main > div {
-            padding-top: 200px !important;
+            padding-top: 155px !important;
         }
     }
 
