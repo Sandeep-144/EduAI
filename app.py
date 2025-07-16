@@ -105,7 +105,7 @@ st.markdown("""
 
     /* Main padding to prevent overlap */
     .main > div {
-        padding-top: 175px !important;
+        padding-top: 275px !important;
     }
 
     @media (max-width: 788px) {
