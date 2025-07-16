@@ -82,7 +82,7 @@ st.markdown("""
         right: 0;
         z-index: 998;
         background-color: #0e1117;
-        padding: 0.8rem 1rem 0.6rem;
+        padding: 0.8rem 1rem 0.3rem;
         border-bottom: 1px solid #333;
     }
 
