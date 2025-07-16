@@ -74,9 +74,10 @@ st.set_page_config("EduBhasha AI Tutor", layout="wide")
 # Custom CSS
 st.markdown("""
     <style>
+    /* Sticky Header Base */
     .sticky-header-container {
         position: fixed;
-        top: 0rem;
+        top: 0.8rem;
         left: 0;
         right: 0;
         z-index: 998;
@@ -85,6 +86,7 @@ st.markdown("""
         border-bottom: 1px solid #333;
     }
 
+    /* Center header content */
     .sticky-header-content {
         max-width: 960px;
         margin: 0 auto;
@@ -102,6 +104,7 @@ st.markdown("""
         margin-top: 0;
     }
 
+    /* 📱 Mobile adjustments */
     @media (max-width: 768px) {
         .sticky-header-container {
             top: 2.5rem;  /* Leave space for mobile top bar */
@@ -120,8 +123,9 @@ st.markdown("""
         }
     }
 
+    /* Default main content offset for header */
     .main > div {
-        padding-top: 120px !important;
+        padding-top: 100px !important;
     }
 
     header.css-18ni7ap.e8zbici2 {
@@ -129,6 +133,7 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
+
 
 # Header
 st.markdown("""
