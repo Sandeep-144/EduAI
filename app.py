@@ -103,12 +103,20 @@ st.markdown("""
     }
 
     @media (max-width: 768px) {
+        .sticky-header-container {
+            top: 2.5rem;  /* Leave space for mobile top bar */
+        }
+
         .sticky-header-content h2 {
             font-size: 1.3rem;
         }
 
         .sticky-header-content p {
             font-size: 0.85rem;
+        }
+
+        .main > div {
+            padding-top: 130px !important;  /* Extra space for lower header on mobile */
         }
     }
 
