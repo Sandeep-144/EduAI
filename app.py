@@ -77,12 +77,12 @@ st.markdown("""
     /* Sticky header */
     .sticky-header-container {
         position: fixed;
-        top: 1.5rem;
+        top: 2rem;
         left: 0;
         right: 0;
         z-index: 998;
         background-color: #0e1117;
-        padding: 0.6rem 0.3rem 0rem;
+        padding: 2rem 0rem 0rem;
         border-bottom: 1px solid #333;
     }
 
