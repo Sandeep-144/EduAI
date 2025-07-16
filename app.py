@@ -82,7 +82,7 @@ st.markdown("""
         right: 0;
         z-index: 998;
         background-color: #0e1117;
-        padding: 0.6rem 0.6rem 0rem;
+        padding: 0.6rem 0.3rem 0rem;
         border-bottom: 1px solid #333;
     }
 
@@ -105,7 +105,7 @@ st.markdown("""
 
     /* Main padding to prevent overlap */
     .main > div {
-        padding-top: 275px !important;
+        padding-top: 135px !important;
     }
 
     @media (max-width: 788px) {
