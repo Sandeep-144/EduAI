@@ -74,19 +74,18 @@ st.set_page_config("EduBhasha AI Tutor", layout="wide")
 # Custom CSS
 st.markdown("""
     <style>
-    /* Sticky Header Base */
+    /* Sticky header styling */
     .sticky-header-container {
         position: fixed;
-        top: 2rem;
+        top: 0.8rem;
         left: 0;
         right: 0;
         z-index: 998;
         background-color: #0e1117;
-        padding: 0.5rem 1rem;
+        padding: 0.8rem 1rem 0.6rem;
         border-bottom: 1px solid #333;
     }
 
-    /* Center header content */
     .sticky-header-content {
         max-width: 960px;
         margin: 0 auto;
@@ -95,7 +94,7 @@ st.markdown("""
 
     .sticky-header-content h2 {
         font-size: 1.6rem;
-        margin-bottom: 0.3rem;
+        margin-bottom: 0.2rem;
     }
 
     .sticky-header-content p {
@@ -104,10 +103,15 @@ st.markdown("""
         margin-top: 0;
     }
 
-    /* 📱 Mobile adjustments */
+    /* Default top padding (header height) */
+    .main > div {
+        padding-top: 105px !important;
+    }
+
+    /* Mobile adjustments */
     @media (max-width: 768px) {
         .sticky-header-container {
-            top: 2.5rem;  /* Leave space for mobile top bar */
+            top: 2.5rem;
         }
 
         .sticky-header-content h2 {
@@ -119,20 +123,17 @@ st.markdown("""
         }
 
         .main > div {
-            padding-top: 130px !important;  /* Extra space for lower header on mobile */
+            padding-top: 135px !important;
         }
     }
 
-    /* Default main content offset for header */
-    .main > div {
-        padding-top: 100px !important;
-    }
-
+    /* Keep app bar above header */
     header.css-18ni7ap.e8zbici2 {
         z-index: 1000 !important;
     }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 # Header
