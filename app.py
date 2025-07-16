@@ -77,7 +77,7 @@ st.markdown("""
     /* Sticky header */
     .sticky-header-container {
         position: fixed;
-        top: 2rem;
+        top: 1.5rem;
         left: 0;
         right: 0;
         z-index: 998;
