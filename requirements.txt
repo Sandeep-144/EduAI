@@ -1,0 +1,7 @@
+streamlit
+transformers
+sentencepiece
+torch
+requests
+pdfplumber
+python-docx
