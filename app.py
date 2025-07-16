@@ -118,7 +118,7 @@ st.markdown("""
         }
 
         .main > div {
-            padding-top: 195px !important;
+            padding-top: 300px !important;
         }
     }
 
