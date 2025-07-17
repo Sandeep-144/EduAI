@@ -69,7 +69,7 @@ def query_gemini_flash(prompt):
         return f"❌ Gemini Error: {safe_error_message(e)}"
 
 # Streamlit Page Config
-st.set_page_config("EduBhasha AI Tutor", layout="wide")
+st.set_page_config("EduAI Tutor", layout="wide")
 
 # Custom CSS
 st.markdown("""
